@@ -1,0 +1,33 @@
+// colors
+$primary-color: #0055a1;
+$secondary-color: grey;
+$btn-color: #0055a1;
+$text-color: #fff;
+$font-size: 3.75rem;
+
+.btn {
+  font-weight: 500;
+  padding: 1rem;
+  margin: 0.6rem;
+  outline: none;
+  border: none;
+  background: $btn-color;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transform: skew(-20deg);
+
+  span {
+    transform: skewX(20deg);
+  }
+}
+
+.container {
+  margin: 0;
+  font-family: "Sen", sans-serif;
+  max-width: 1400px;
+  width: 100%;
+  margin: 40px auto;
+  overflow: hidden;
+}

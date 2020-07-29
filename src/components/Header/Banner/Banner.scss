@@ -1,0 +1,31 @@
+@import "../../../utils/utils";
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__content h1 {
+    color: $primary-color;
+    font-size: $font-size;
+  }
+
+  &__content--text {
+    color: $secondary-color;
+  }
+
+  &__btn {
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 40px;
+  }
+}
