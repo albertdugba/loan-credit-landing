@@ -18,6 +18,7 @@
 
   &__content--text {
     color: $secondary-color;
+    font-size: 1.2rem;
   }
 
   &__btn {
@@ -28,4 +29,35 @@
     margin-right: 30px;
     margin-left: 40px;
   }
+}
+
+// Middle Banner - Flex Items
+.banner__middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner__content--title {
+  text-align: right;
+  color: $primary-color;
+  font-size: $font-size;
+}
+
+.banner__content--text {
+  color: $secondary-color;
+  font-size: 1.2rem;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  color: $primary-color;
+}
+.link__learn--more {
+  display: block;
+  text-decoration: none;
+  color: $primary-color;
 }

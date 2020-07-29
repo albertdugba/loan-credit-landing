@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./Header.scss";
 import Banner from "./Banner/Banner";
+import BannerMiddle from "./Banner/BannerMiddle";
 
 const Header = () => {
   return (
@@ -39,6 +40,7 @@ const Header = () => {
       </header>
 
       <Banner />
+      <BannerMiddle />
     </div>
   );
 };
