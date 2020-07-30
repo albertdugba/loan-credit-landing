@@ -1,0 +1,23 @@
+@import "../../utils/utils";
+
+.credit {
+  background: $bg-color;
+  padding: 1rem;
+
+  &__container {
+    @extend %display;
+  }
+
+  &__title {
+    font-size: $font-size-sm;
+    color: $primary-color;
+  }
+
+  &__text {
+    color: grey;
+  }
+
+  &__img > img {
+    max-width: 600px;
+  }
+}

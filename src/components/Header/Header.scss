@@ -43,6 +43,11 @@
         transform: skew(20deg);
         text-transform: uppercase;
 
+        .is__active {
+          background: $navbar-active;
+          color: $text-color;
+        }
+
         &:hover {
           background: $primary-color;
           color: #ffff;

@@ -1,0 +1,10 @@
+@import "../../utils/utils";
+
+.accordion {
+  width: 100%;
+
+  &__heading {
+    color: $primary-color;
+    font-size: $font-size-sm;
+  }
+}

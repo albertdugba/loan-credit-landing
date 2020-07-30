@@ -1,14 +1,16 @@
-@import "../../../utils/utils";
+@import "../../utils/utils";
 
 .banner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  // justify-content: space-evenly;
   padding: 0.5rem;
+  width: 100%;
 
   &__content {
     display: flex;
     flex-direction: column;
+    width: 40%;
   }
 
   &__content h1 {
@@ -28,6 +30,10 @@
     justify-content: space-between;
     margin-right: 30px;
     margin-left: 40px;
+  }
+
+  &__img {
+    width: 60%;
   }
 }
 
@@ -60,4 +66,21 @@
   display: block;
   text-decoration: none;
   color: $primary-color;
+}
+
+// Last Banner
+.middle {
+  @extend %display;
+  flex-direction: row-reverse;
+  margin-top: 80px;
+}
+
+.middle__content {
+  display: flex;
+  flex-direction: column;
+
+  &--title {
+    color: $primary-color;
+    font-size: $font-size;
+  }
 }

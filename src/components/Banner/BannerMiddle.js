@@ -1,5 +1,5 @@
 import React from "react";
-import blackPerson from "../../../assets/black-person.png";
+import blackPerson from "../../assets/black-person.png";
 
 import "./Banner.scss";
 import { FaLongArrowAltRight } from "react-icons/fa";
@@ -30,9 +30,6 @@ const BannerMiddle = () => {
           accusamus aliquid atque repellendus possimus soluta, autem quaerat
           <br />
           recusandae sit pariatur unde, sapiente ducimus? Totam odio ullam aut
-          <br />
-          aspernatur ipsa omnis nam, dicta ad possimus incidunt provident quo
-          sapiente aperiam, odit labore consequatur!
         </p>
 
         <div className="link">

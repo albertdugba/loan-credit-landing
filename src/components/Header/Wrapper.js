@@ -1,10 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import logo from "../../assets/logo.png";
 import "./Header.scss";
-import Banner from "./Banner/Banner";
-import BannerMiddle from "./Banner/BannerMiddle";
+import logo from "../../assets/logo.png";
+import Banner from "../Banner/Banner";
+import BannerMiddle from "../Banner/BannerMiddle";
+import BannerRow from "../Banner/BannerRow";
+import Offers from "../Offers/Offers";
+import Credit from "../Offers/Credit";
+import Accordion from "../Accordion/Accordion";
+import Testimonials from "../Testimonials/Testimonials";
+import Footer from "../Footer/Footer";
 
 const Header = () => {
   return (
@@ -33,7 +39,9 @@ const Header = () => {
               <NavLink to="#">FAQS</NavLink>
             </li>
             <li>
-              <NavLink to="#">Apply Online</NavLink>
+              <NavLink to="#" activeClassName="is__active">
+                Apply Online
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -41,6 +49,12 @@ const Header = () => {
 
       <Banner />
       <BannerMiddle />
+      <BannerRow />
+      <Offers />
+      <Credit />
+      <Accordion />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };

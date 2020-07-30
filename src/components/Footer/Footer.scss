@@ -1,0 +1,38 @@
+@import "../../utils/utils";
+
+.footer {
+  background: $primary-color;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  &__inner {
+    @extend %display;
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+  &__img {
+    margin-right: 1rem;
+    width: 48px;
+  }
+
+  &__nav li {
+    list-style: none;
+    padding: 0.35rem;
+    text-transform: uppercase;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  &__line {
+    border-bottom: 0.1px solid $text-color;
+  }
+}

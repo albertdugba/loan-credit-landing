@@ -1,0 +1,76 @@
+@import "../../utils/utils";
+
+.testimonials {
+  box-sizing: border-box;
+  &__header h1 {
+    color: $primary-color;
+    font-size: $font-size;
+    text-align: right;
+  }
+
+  &__header h4 {
+    font-size: $font-size-sm;
+    color: $text-color-primary;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 12px;
+  }
+
+  &__inner--text {
+    width: 30%;
+  }
+
+  &__inner--media {
+    position: relative;
+    width: 70%;
+  }
+
+  &__inner--media img {
+    width: 100%;
+    max-width: 300px;
+    object-fit: contain;
+    // display: flex;
+
+    // first img
+    &:nth-child(1) {
+      height: auto;
+      position: absolute;
+      right: 0;
+      top: 200;
+      // left: -10;
+
+      // z-index: 1;
+    }
+
+    // second img
+    &:nth-child(3) {
+      right: 70;
+    }
+
+    // last img
+    &:nth-child(2) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+blockquote {
+  position: relative;
+  display: block;
+  padding: 0.3rem;
+}
+
+blockquote::before {
+  content: "\201c";
+  font-size: 5rem;
+  color: $tertiary-color;
+}
+
+blockquote p {
+  margin-top: -50px;
+}

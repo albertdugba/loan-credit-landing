@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-import bannerImg from "../../../assets/banner.png";
+import bannerImg from "../../assets/banner.png";
 import "./Banner.scss";
 
 const Banner = () => {
