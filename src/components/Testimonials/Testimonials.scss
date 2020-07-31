@@ -13,6 +13,18 @@
     color: $text-color-primary;
   }
 
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+
+    & span:first-child {
+      color: $tertiary-color;
+      margin-left: -14px;
+    }
+  }
+
   &__inner {
     display: flex;
     align-items: center;
@@ -22,6 +34,7 @@
 
   &__inner--text {
     width: 30%;
+    color: $text-color-primary;
   }
 
   &__inner--media {
@@ -37,13 +50,6 @@
 
     // first img
     &:nth-child(1) {
-      height: auto;
-      position: absolute;
-      right: 0;
-      top: 200;
-      // left: -10;
-
-      // z-index: 1;
     }
 
     // second img
@@ -53,8 +59,6 @@
 
     // last img
     &:nth-child(2) {
-      position: absolute;
-      bottom: 0;
     }
   }
 }
@@ -67,8 +71,9 @@ blockquote {
 
 blockquote::before {
   content: "\201c";
-  font-size: 5rem;
+  font-size: 7rem;
   color: $tertiary-color;
+  font-family: sans-serif;
 }
 
 blockquote p {

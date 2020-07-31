@@ -26,8 +26,10 @@ const Testimonials = () => {
               possimus eius animi perferendis? Dicta dolores veritatis, ipsa
               quae quibusdam modi unde?
             </p>
-            <span>John Doe</span>
-            <span>Doe Industries</span>
+            <div className="testimonials__info">
+              <span>John Doe</span>
+              <span>Doe Industries</span>
+            </div>
           </blockquote>
         </div>
 

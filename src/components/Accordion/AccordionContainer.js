@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import { FaLongArrowAltRight } from "react-icons/fa";
 import Accordion from "./Accordion";
 
 import "./Accordion.scss";
@@ -38,6 +41,14 @@ const AccordionContainer = () => {
           sequi provident praesentium nisi consectetur.
         </p>
       </Accordion>
+      <div className="accordion__link">
+        <div className="link">
+          <Link to="#" className="link__learn--more">
+            <span>see more</span>
+          </Link>
+          <FaLongArrowAltRight />
+        </div>
+      </div>
     </div>
   );
 };

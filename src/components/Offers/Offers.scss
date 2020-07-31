@@ -1,6 +1,60 @@
 @import "../../utils/utils";
 
+.carousel__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
 .carousel__title {
   color: $primary-color;
   font-size: $font-size-md;
+}
+
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel__content {
+  display: flex;
+  flex-flow: column;
+  padding: 0.5rem;
+
+  h3 {
+    color: $primary-color;
+    font-size: $font-size-md;
+  }
+
+  p {
+    color: $text-color-primary;
+    margin-top: -20px;
+  }
+}
+
+.carousel__img {
+  max-width: 520px;
+}
+
+.carousel__content:first-child {
+  color: $primary-color;
+}
+
+.carousel__controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.carousel__control {
+  width: 50px;
+  height: 50px;
+  background-color: $primary-color;
+  color: $text-color;
+  margin-left: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
