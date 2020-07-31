@@ -8,9 +8,9 @@ import BannerMiddle from "../Banner/BannerMiddle";
 import BannerRow from "../Banner/BannerRow";
 import Offers from "../Offers/Offers";
 import Credit from "../Offers/Credit";
-import Accordion from "../Accordion/Accordion";
 import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../Footer/Footer";
+import AccordionContainer from "../Accordion/AccordionContainer";
 
 const Header = () => {
   return (
@@ -52,7 +52,7 @@ const Header = () => {
       <BannerRow />
       <Offers />
       <Credit />
-      <Accordion />
+      <AccordionContainer />
       <Testimonials />
       <Footer />
     </div>

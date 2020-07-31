@@ -1,14 +1,20 @@
 import React, { useState } from "react";
-
 import "./Accordion.scss";
 
-const Accordion = () => {
+const Accordion = ({ title, children }) => {
+  const [isOpen, setOpen] = useState(false);
   return (
-    <div className="accordion container">
-      <div className="accordion__heading">
-        <h1>
-          Frequently asked <br /> questions
-        </h1>
+    <div className="accordion">
+      <div
+        className={`accordion__title ${isOpen ? "open" : ""}`}
+        onClick={() => setOpen(!isOpen)}>
+        {title}
+      </div>
+      <div
+        className={`accordion__item accordion__content ${
+          !isOpen ? "collapsed" : ""
+        }`}>
+        {children}
       </div>
     </div>
   );
