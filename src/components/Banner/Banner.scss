@@ -78,6 +78,7 @@
 .middle__content {
   display: flex;
   flex-direction: column;
+  width: 50%;
 
   &--title {
     color: $primary-color;

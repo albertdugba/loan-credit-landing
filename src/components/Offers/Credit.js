@@ -2,11 +2,7 @@ import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 import "./Credit.scss";
-
 import credit from "../../assets/credit.png";
-
-import loan from "../../assets/loan.svg";
-import home from "../../assets/home.svg";
 
 const Credit = () => {
   return (

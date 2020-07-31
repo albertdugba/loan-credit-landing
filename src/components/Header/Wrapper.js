@@ -39,7 +39,7 @@ const Header = () => {
               <NavLink to="#">FAQS</NavLink>
             </li>
             <li>
-              <NavLink to="#" activeClassName="is__active">
+              <NavLink to="#" exact={true} activeClassName="is__active">
                 Apply Online
               </NavLink>
             </li>
