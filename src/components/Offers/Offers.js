@@ -18,7 +18,11 @@ const Offers = () => {
       <div className="carousel__inner">
         <div className="carousel__content">
           <img src={loan} alt="" className="carousel__img" />
-          <img src={loan2} alt="" style={{ width: "50px" }} />
+          <img
+            src={loan2}
+            alt=""
+            style={{ width: "50px", marginTop: "15px" }}
+          />
           <h3>Home Improvement</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
@@ -36,7 +40,7 @@ const Offers = () => {
         {/* 2 */}
         <div className="carousel__content">
           <img src={money} alt="" className="carousel__img" />
-          <img src={l} alt="" style={{ width: "50px" }} />
+          <img src={l} alt="" style={{ width: "50px", marginTop: "15px" }} />
           <h3>Small personal loan</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
