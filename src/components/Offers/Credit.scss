@@ -20,3 +20,16 @@
     max-width: 600px;
   }
 }
+
+// media queries
+@media (max-width: 800px) {
+  .credit {
+    &__container {
+      flex-direction: column;
+    }
+
+    &__img {
+      margin-top: 30px;
+    }
+  }
+}

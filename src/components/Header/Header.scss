@@ -34,7 +34,7 @@
       padding: 0.2rem;
       transition: background 0.3s;
       text-transform: uppercase;
-      transform: skew(-20deg);
+      transform: skew(20deg);
 
       > a {
         display: block;
@@ -42,6 +42,7 @@
         color: $primary-color;
         transition: all 0.3s ease-out;
         padding: 1rem;
+        transform: skew(-20deg);
 
         &.is__active {
           background: $primary-color;
@@ -69,8 +70,4 @@
   &__text > p {
     color: $secondary-color;
   }
-}
-
-nav ul li a {
-  transform: skew(20deg);
 }

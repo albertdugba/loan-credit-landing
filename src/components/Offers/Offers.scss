@@ -58,3 +58,15 @@ img {
   align-items: center;
   justify-content: center;
 }
+
+// media queries
+@media (max-width: 800px) {
+  .carousel {
+    width: 90%;
+  }
+
+  .carousel__title h1 {
+    font-size: $font-size-md;
+    margin-left: 25px;
+  }
+}
