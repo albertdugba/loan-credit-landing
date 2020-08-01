@@ -1,8 +1,9 @@
 import React from "react";
 
-import image1 from "../../assets/about5.png";
-import image2 from "../../assets/about3.png";
-import image3 from "../../assets/about4.png";
+// import image1 from "../../assets/about5.png";
+// import image2 from "../../assets/about3.png";
+// import image3 from "../../assets/about4.png";
+import people from "./people.png";
 
 import "./Testimonials.scss";
 
@@ -34,9 +35,10 @@ const Testimonials = () => {
         </div>
 
         <div className="testimonials__inner--media">
-          <img src={image2} alt="" />
+          {/* <img src={image2} alt="" />
           <img src={image1} alt="" />
-          <img src={image3} alt="" />
+          <img src={image3} alt="" /> */}
+          <img src={people} alt="" />
         </div>
       </div>
     </div>

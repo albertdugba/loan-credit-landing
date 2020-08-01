@@ -33,18 +33,18 @@
   }
 
   &__inner--text {
-    width: 30%;
+    width: 50%;
     color: $text-color-primary;
+    font-weight: bolder;
   }
 
   &__inner--media {
     position: relative;
-    width: 70%;
   }
 
   &__inner--media img {
     width: 100%;
-    max-width: 300px;
+    max-width: 600px;
     object-fit: contain;
     // display: flex;
 
@@ -78,4 +78,16 @@ blockquote::before {
 
 blockquote p {
   margin-top: -50px;
+}
+
+// media queries
+
+@media (max-width: 800px) {
+  .testimonials__inner {
+    flex-direction: column-reverse;
+
+    &--text {
+      width: 100%;
+    }
+  }
 }
