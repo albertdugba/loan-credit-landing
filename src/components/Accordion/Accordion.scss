@@ -69,12 +69,17 @@
 
 // media queries
 @media (max-width: 800px) {
-  .wrapper {
+  .wrapper,
+  .accordion {
     width: 90%;
   }
 
   .accordion__header span {
-    font-size: 2.2rem;
-    margin: 0;
+    font-size: 2rem;
+    margin-left: 21px;
+  }
+
+  .accordion__link {
+    margin-left: 21px;
   }
 }

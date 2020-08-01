@@ -36,3 +36,30 @@
     border-bottom: 0.1px solid $text-color;
   }
 }
+
+// media queries
+
+@media (max-width: 800px) {
+  .footer__inner {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .footer__nav {
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+
+    &:nth-child(1) {
+      border-bottom: 1px solid $bg-color;
+      width: 100%;
+    }
+    &:nth-child(2) {
+      border-bottom: 1px solid $bg-color;
+    }
+    &:nth-child(3) {
+      border-bottom: 1px solid $bg-color;
+    }
+  }
+}

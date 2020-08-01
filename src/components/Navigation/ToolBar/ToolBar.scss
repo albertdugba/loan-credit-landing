@@ -42,3 +42,9 @@
     display: none;
   }
 }
+
+@media (min-width: 764px) {
+  .toolbar {
+    width: 90%;
+  }
+}

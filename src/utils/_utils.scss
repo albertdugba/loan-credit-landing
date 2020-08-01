@@ -51,3 +51,15 @@ $font-size-sm: 1.4rem;
   margin: 1px auto;
   overflow: hidden;
 }
+
+@media (min-width: 801px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 90%;
+  }
+}
