@@ -1,0 +1,44 @@
+@import "../../../utils/utils";
+
+.toolbar {
+  width: 100%;
+  color: $primary-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 90;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    > img {
+      width: 60px;
+    }
+    &--brand {
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+  }
+
+  nav {
+    height: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .toolbar__desktop--display {
+    display: none;
+  }
+
+  .toolbar__logo img {
+    padding: 0.5rem;
+    width: 40px;
+  }
+
+  .toolbar__logo--brand {
+    display: none;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../../utils/utils";
+
+.navigation__item {
+  list-style: none;
+  padding: 0.2rem;
+  transition: background 0.3s;
+  text-transform: uppercase;
+  transform: skew(-20deg);
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: $primary-color;
+    transition: all 0.3s ease-out;
+    padding: 1rem;
+    transform: skew(20deg);
+
+    &.is__active {
+      background: $primary-color;
+      color: #ffff;
+    }
+
+    &:hover {
+      background: $primary-color;
+      color: #ffff;
+    }
+  }
+}
+
+// media queries
+
+@media (min-width: 500px) {
+  .navigation__item {
+    margin: 0;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+  }
+}
