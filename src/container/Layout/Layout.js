@@ -1,8 +1,8 @@
 import React, { useState, Fragment } from "react";
 
 import "./Layout.scss";
-import ToolBar from "../../components/Navigation/ToolBar/ToolBar";
-import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
+import ToolBar from "../../components/UIElements/Navigation/ToolBar/ToolBar";
+import SideDrawer from "../../components/UIElements/Navigation/SideDrawer/SideDrawer";
 
 const Layout = ({ children }) => {
   const [showSideDrawer, setShowSideDrawer] = useState(false);

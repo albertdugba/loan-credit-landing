@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { FaLongArrowAltRight, FaLongArrowAltLeft } from "react-icons/fa";
 
 import "./Offers.scss";
-import loan from "../../assets/loan1.png";
-import loan2 from "../../assets/loan.svg";
-import l from "../../assets/l.svg";
-import money from "../../assets/image2.png";
+import loan from "../../../assets/loan1.png";
+import loan2 from "../../../assets/loan.svg";
+import l from "../../../assets/l.svg";
+import money from "../../../assets/image2.png";
 
 const Offers = () => {
   return (

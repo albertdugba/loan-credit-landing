@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-import bannerImg from "../../assets/banner.png";
+import bannerImg from "../../../assets/banner.png";
 import "./Banner.scss";
 
 const Banner = () => {

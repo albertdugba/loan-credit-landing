@@ -2,7 +2,7 @@ import React from "react";
 import "./SideDrawer.scss";
 import BackDrop from "../BackDrop/BackDrop";
 import NavItems from "../NavItems/NavItems";
-import logo from "../../../assets/logo.png";
+import logo from "../../../../assets/logo.png";
 
 const SideDrawer = ({ open, closed }) => {
   let joinedClasses = ["sidedrawer close"];

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import logo from "../../../assets/logo.png";
+import logo from "../../../../assets/logo.png";
 import NavItems from "../NavItems/NavItems";
 import "./ToolBar.scss";
 import ToggleButton from "../ToggleButton/ToggleButton";

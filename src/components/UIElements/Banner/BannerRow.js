@@ -1,5 +1,5 @@
 import React from "react";
-import blackPerson from "../../assets/black-person.png";
+import blackPerson from "../../../assets/black-person.png";
 
 import "./Banner.scss";
 import { FaLongArrowAltRight } from "react-icons/fa";

@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { useIntersection } from "react-use";
 import gsap from "gsap";
 
-import blackPerson from "../../assets/black-person.png";
+import blackPerson from "../../../assets/black-person.png";
 import "./Banner.scss";
 
 const BannerMiddle = () => {
