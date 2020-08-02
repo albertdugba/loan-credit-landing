@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from "react";
-import { motion } from "framer-motion";
 import { TweenMax, TimelineLite, Power3 } from "gsap";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -18,8 +17,6 @@ const Banner = () => {
   let headlineFirst = useRef(null);
   let secondHeadline = useRef(null);
   let thirdHeadline = useRef(null);
-  let contentP = useRef(null);
-  let button = useRef(null);
 
   useEffect(() => {
     TweenMax.to(app, { css: { visibility: "visible" } });
@@ -66,7 +63,7 @@ const Banner = () => {
             </p>
           </div>
 
-          <button className="banner__btn btn" ref={el => (button = el)}>
+          <button className="banner__btn btn">
             <span>loan application</span>
             <FaLongArrowAltRight />
           </button>
