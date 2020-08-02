@@ -13,7 +13,6 @@ const Banner = () => {
   let firstImage = useRef(null);
 
   // content
-
   let headlineFirst = useRef(null);
   let secondHeadline = useRef(null);
   let thirdHeadline = useRef(null);
@@ -29,7 +28,6 @@ const Banner = () => {
     );
 
     // content animation
-
     tl.staggerFrom(
       [headlineFirst, secondHeadline, thirdHeadline],
       1,
@@ -41,7 +39,6 @@ const Banner = () => {
       0.15,
       "start"
     );
-    // .from(button, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6);
   }, [tl]);
 
   return (
