@@ -28,6 +28,15 @@
   }
 }
 
+.toolbar__fade--bottom {
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(216, 32, 32, 0.61),
+    #111
+  );
+}
+
 @media (max-width: 950px) {
   .toolbar__desktop--display {
     display: none;

@@ -26,8 +26,7 @@ const Offers = () => {
           <h3>Home Improvement</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-            atque suscipit consequuntur minima reiciendis a maxime dolores
-            veritatis nesciunt doloremque.
+            atque suscipit consequuntur minima
           </p>
           <div className="link">
             <Link to="#" className="link__learn--more">
@@ -44,8 +43,7 @@ const Offers = () => {
           <h3>Small personal loan</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-            atque suscipit consequuntur minima reiciendis a maxime dolores
-            veritatis nesciunt doloremque.
+            atque suscipit consequuntur minima
           </p>
           <div className="link">
             <Link to="#" className="link__learn--more">

@@ -36,6 +36,10 @@
     width: 50%;
     color: $text-color-primary;
     font-weight: bolder;
+
+    p {
+      margin-top: -190px;
+    }
   }
 
   &__inner--media {
@@ -48,18 +52,18 @@
     object-fit: contain;
     // display: flex;
 
-    // first img
-    &:nth-child(1) {
-    }
+    // // first img
+    // &:nth-child(1) {
+    // }
 
-    // second img
-    &:nth-child(3) {
-      right: 70;
-    }
+    // // second img
+    // &:nth-child(3) {
+    //   right: 70;
+    // }
 
-    // last img
-    &:nth-child(2) {
-    }
+    // // last img
+    // &:nth-child(2) {
+    // }
   }
 }
 
@@ -71,7 +75,7 @@ blockquote {
 
 blockquote::before {
   content: "\201c";
-  font-size: 7rem;
+  font-size: 20rem;
   color: $tertiary-color;
   font-family: sans-serif;
 }

@@ -6,6 +6,7 @@
   // justify-content: space-evenly;
   padding: 0.5rem;
   width: 100%;
+  visibility: hidden;
 
   &__content {
     display: flex;
@@ -13,9 +14,10 @@
     width: 40%;
   }
 
-  &__content h1 {
+  &__content h1 div {
     color: $primary-color;
     font-size: $font-size;
+    line-height: 0.8;
   }
 
   &__content--text {
@@ -42,17 +44,26 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 100px;
 }
 
 .banner__content--title {
   text-align: right;
   color: $primary-color;
   font-size: $font-size;
+
+  @media (max-width: 961px) {
+    font-size: 2.3rem;
+  }
 }
 
 .banner__content--text {
   color: $secondary-color;
   font-size: 1.2rem;
+
+  @media (max-width: 961px) {
+    font-size: 1rem;
+  }
 }
 
 .link {
@@ -72,7 +83,7 @@
 .middle {
   @extend %display;
   flex-direction: row-reverse;
-  margin-top: 80px;
+  margin-top: 480px;
 }
 
 .middle__content {
@@ -86,6 +97,21 @@
   }
 }
 
+.highlight {
+  text-align: center;
+
+  width: 200px;
+  h1 {
+    font-size: 2.7rem;
+    margin-top: 120px;
+    color: $primary-color;
+  }
+
+  &__text > p {
+    color: $secondary-color;
+  }
+}
+
 // media queries
 @media (max-width: 800px) {
   .banner {
@@ -96,6 +122,10 @@
 
     &__content {
       width: 90%;
+
+      h1 div {
+        font-size: 2.4rem;
+      }
     }
 
     &__img {
@@ -114,5 +144,28 @@
       width: 90%;
       padding: 0.5rem;
     }
+
+    &__content--title span {
+      font-size: 2.5rem;
+    }
+  }
+
+  .banner__content--title {
+    font-size: 2.9rem;
+  }
+
+  .banner__content--text {
+    font: 0.7rem;
+  }
+
+  // highlight
+  .highlight h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .banner__content--title {
+    font-size: 3rem;
   }
 }

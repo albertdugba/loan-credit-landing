@@ -6,7 +6,7 @@ import "./NavItem.scss";
 const NavItem = ({ children, link, exact }) => {
   return (
     <li className="navigation__item">
-      <NavLink to={link} exact={true}>
+      <NavLink to={link} exact={exact} activeClassName="is__active">
         {children}
       </NavLink>
     </li>
